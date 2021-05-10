@@ -2,7 +2,8 @@
 
 ## Introduction
 This is the offical code of [Accelerating Neural Architecture Search via Proxy Data]().
-Especially, we provide an implementation of DARTS with proxy data and 
+
+Especially, we provide an implementation of DARTS with proxy data.
 
 ## Our experimental environment
 ```
@@ -24,7 +25,7 @@ Please see `script.sh` to enjoy various examples for running the search code.
 ## Final evaluation (retraining)
 Several neural networks searched in this study are included in `genotypes.py`.
 
-To train a searched neural network, for example, named *your_arch*, run
+To train a searched neural network (*e.g.*, named *your_arch*) on CIFAR-10, run
 ```
 python train.py --gpu 0 --arch *your_arch*
 ```
