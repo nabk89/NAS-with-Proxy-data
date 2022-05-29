@@ -1,7 +1,7 @@
 # Accelerating Neural Architecture Search via Proxy Data
 
 ## Introduction
-This is the offical code of [Accelerating Neural Architecture Search via Proxy Data]() accepted in [IJCAI 2021](https://ijcai-21.org/).
+This is the offical code of [Accelerating Neural Architecture Search via Proxy Data](https://arxiv.org/abs/2106.04784) accepted in [IJCAI 2021](https://ijcai-21.org/).
 
 Especially, we provide an implementation of DARTS with proxy data.
 
